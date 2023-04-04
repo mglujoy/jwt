@@ -1,0 +1,19 @@
+
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/jwt_security?zeroDateTimeBehavior=CONVERT_TO_NULL
+        username: root
+        password: 291286
+        driver-class-name: com.mysql.cj.jdbc.Driver
+    jpa:
+        hibernate:
+            ddl-auto : create-drop
+        show-sql: true
+        properties: 
+            hibernate:
+                format_sql: true
+        database: mysql
+        databse-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    autoconfigure:
+        exclude: 
+

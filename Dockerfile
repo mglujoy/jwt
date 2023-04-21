@@ -1,4 +1,4 @@
-FROM amazoncorreto:11
+FROM amazoncorretto:17
 
 MAINTAINER mglujoy
 

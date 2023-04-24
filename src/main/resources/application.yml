@@ -13,7 +13,7 @@ spring:
             hibernate:
                 format_sql: true
         database: mysql
-        databse-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+        databse-platform: org.hibernate.dialect.MySQLDialect
     autoconfigure:
         exclude: 
 

@@ -1,9 +1,9 @@
 
 spring:
     datasource:
-        url: jdbc:mysql://localhost:3306/jwt_security?zeroDateTimeBehavior=CONVERT_TO_NULL
-        username: root
-        password: 291286
+        url: jdbc:mysql://uzxfrizn5hbbdux8:1OHcXN8NakRmPJHrog83@bgotwliknmglvetpt7us-mysql.services.clever-cloud.com:3306/bgotwliknmglvetpt7us
+        username: uzxfrizn5hbbdux8
+        password: 1OHcXN8NakRmPJHrog83
         driver-class-name: com.mysql.cj.jdbc.Driver
     jpa:
         hibernate:

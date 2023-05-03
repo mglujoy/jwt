@@ -1,4 +1,4 @@
-FROM amazoncorretto:17
+FROM amazoncorretto:19
 
 COPY  target/security-0.0.1-SNAPSHOT.jar app.jar
 
